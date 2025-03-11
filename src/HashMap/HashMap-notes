@@ -1,0 +1,32 @@
+** HashMap **
+1) Hashmap is combination of key-value paired, unordered set.
+2) In hashmap ey is unique and value may be duplicate.
+
+# Implementation of hashmap--
+1) put()           - for insert pair
+2) get()           - retrieve data from map.
+3) containsKey()   - search value by their key in map
+4) remove()        - delete or remove pair from map
+5) size()          - find the size of pair which present in map.
+6) keySet()        - fetch all keys for set format from map.
+
+#
+1) Hash map internally implements as a array of linked list.
+  e.g.-
+         key    value
+      1) india  150
+      2) china   90
+      3) us      60
+      4) nepal    5
+      5) bangladesh 2
+      6) canada     1
+
+      declared two variable
+      n = 6; this is data size or pair which is present in map.
+      N = 4= bucket; this is node and is also index size of array
+
+2) Hashing - change data form
+   e.g.
+       "abc --> 345; like that
+
+   # using this techniques for store passwords.

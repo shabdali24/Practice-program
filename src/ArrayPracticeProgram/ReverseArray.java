@@ -6,7 +6,9 @@ public class ReverseArray {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter array size");
         n=sc.nextInt();
+
         int a[]=new int[n];
+
         System.out.println("Enter array Elements");
         for(int i=0;i<n;i++){
             a[i]=sc.nextInt();

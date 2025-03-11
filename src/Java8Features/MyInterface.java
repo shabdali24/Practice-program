@@ -6,7 +6,9 @@ public interface MyInterface {
 
     default void sayBye(){
 
-    };
+        System.out.println("Say hi");
+
+    }
 
     static void sayOk(){
 
