@@ -1,0 +1,45 @@
+-------------- Map-----------------
+1) map is an interface which is present in java.util package.
+2) map does not inherit collection.
+3) map was introduce jdk 1.2 version.
+4) map does not follow insertion order and sorting order.
+
+4) Hierarchy of map :-
+
+5) property of map:-
+   a) map store data in ey value pair format.
+   b) in map key must be unique and value may be duplicate.
+   c) in a map we can store maximum one null value in key section/as key and,
+       any number of values is null.
+
+6) Methods:-
+   a) put()-
+            add ey and values in map.
+   b) containsKey():-
+              use to find searching given key is present in map or not return in boolean (t/f).
+   c) containsValue():-
+               use to find given value is present in map or not return in boolean(t/f).
+   d)get():-
+            get or retrieve the value according to key.
+   e)entrySet():-
+           use to convert set values in map format.
+   f) remove():-
+             give key and remove the entry from set ; here entry means(k,v)
+   g) replace():-
+             give (k,v) and replace the value in the map
+   h)size():-
+
+
+
+
+   **  key points-
+
+   - we can not use duplicate key in map if we use this it update last entry as a record
+     e.g.   map.put(1,"java");
+            map.put(2,"c");
+            map.put(1,"python");
+          o/p is like {1=python, 2=c}
+
+   - value may be duplicate is fine.
+
+

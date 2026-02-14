@@ -1,6 +1,6 @@
-** HashMap **
+** Map.HashMap **
 1) Hashmap is combination of key-value paired, unordered set.
-2) In hashmap ey is unique and value may be duplicate.
+2) In hashmap key is unique and value may be duplicate.
 
 # Implementation of hashmap--
 1) put()           - for insert pair

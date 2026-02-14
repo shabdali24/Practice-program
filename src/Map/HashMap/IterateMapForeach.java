@@ -1,4 +1,4 @@
-package HashMap;
+package Map.HashMap;
 import java.util.*;
 public class IterateMapForeach {
     public static void main(String[] args) {
